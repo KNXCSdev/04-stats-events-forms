@@ -7,6 +7,14 @@ body {
   color: #333;
 }
 
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 5px;
+}
+
 .steps {
   width: 600px;
   background-color: #f7f7f7;
@@ -76,7 +84,7 @@ h3 {
 }
 
 .close {
-  position: absolute;
+  /* position: absolute; */
   top: 16px;
   right: 16px;
   border: none;
